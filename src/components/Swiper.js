@@ -8,8 +8,8 @@ import "swiper/swiper-bundle.css"
 SwiperCore.use([Pagination,Navigation,Autoplay])
 function App() {
   return (
-    <div className="text-center text-success">
-    <Swiper pagination navigation autoplay loop>
+    <div className="text-center text-success mt-4">
+    <Swiper pagination navigation loop>
       <SwiperSlide>
         hi
       </SwiperSlide>

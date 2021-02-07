@@ -1,0 +1,58 @@
+body {
+  background-color: #161130;
+  color: white;
+}
+.bg-light {
+  background-color: #1c262b !important;
+}
+.form-control {
+  border-radius: 50px 50px 50px 50px;
+  width: 20rem;
+}
+.rounded {
+  border-radius: 50rem !important;
+}
+.header {
+  margin-top: 10rem;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 4rem auto;
+}
+.swiper-pagination-progressbar {
+  background: white !important;
+}
+.header-img {
+  width: 100vw;
+  height: 95vh;
+}
+.shade {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slide-info-card {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 80%;
+  left: 5%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-img {
+    height: 50vh;
+  }
+  .header {
+    position: relative;
+  }
+  .slide-info-card {
+    top: 60%;
+  }
+}
